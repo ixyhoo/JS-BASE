@@ -17,6 +17,15 @@ console.log(number);
 
 let string = "I'am a sting";
 
-let newString =" for Javascript"
+let newString =`${string} for Javascript`
 
-console.log(string  +  newString);
+console.log(newString) ;
+
+let array = ["name", 2, "blue", false]
+
+let object = {
+    name: "nour",
+    age: 2,
+    address: "2 allé de babies"
+
+}
