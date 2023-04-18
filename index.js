@@ -29,3 +29,19 @@ let object = {
     address: "2 allé de babies"
 
 }
+
+let arbre;
+
+arbrer = "chenes";
+
+console.log(arbre);
+console.log(4**4);
+
+let total = 0;
+
+total++;
+
+console.log(total);
+
+// structure de controle
+
