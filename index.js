@@ -61,6 +61,25 @@ if (x < y && x > 1){
     console.log("fly");
 }**/
 
-function FQC()) {
-    
+function FQC() {
+  console.log("yes it's me");
+  console.log(5 * 5);
+  alert("finish !");
 }
+//il faut imperativement appeler une foction
+//FQC()
+
+const addition = (a, b) => {
+    console.log(a + b);
+}
+
+addition(2, 3)
+
+//**la portée des variable */
+
+function add2(){
+    let num = 4;
+    console.log(num + 2); 
+}
+
+add2(num);
