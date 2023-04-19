@@ -47,7 +47,7 @@ console.log(total);
 let x = 12;
 let y = 12;
 
-if (x < y){
+/**if (x < y){
     alert("yes is true");
 }else if(y < x) {
     alert("no is false");
@@ -59,4 +59,8 @@ if (x < y){
 
 if (x < y && x > 1){
     console.log("fly");
+}**/
+
+function FQC()) {
+    
 }
