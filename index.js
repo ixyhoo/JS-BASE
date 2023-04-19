@@ -54,3 +54,9 @@ if (x < y){
 }else {
     alert("is egale");
 }
+
+// || 
+
+if (x < y && x > 1){
+    console.log("fly");
+}
