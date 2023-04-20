@@ -1,6 +1,6 @@
 //alert("hello guys");
 
-console.log("coucou");
+/**console.log("coucou");
 
 let maSuperVariable = "hello";
 
@@ -61,7 +61,7 @@ if (x < y && x > 1){
     console.log("fly");
 }**/
 
-function FQC() {
+/**function FQC() {
   console.log("yes it's me");
   console.log(5 * 5);
   alert("finish !");
@@ -77,9 +77,9 @@ addition(2, 3)
 
 //**la portée des variable */
 
-function add2(){
+/**function add2(){
     let num = 4;
     console.log(num + 2); 
 }
 
-add2(num);
+add2(num);*/
