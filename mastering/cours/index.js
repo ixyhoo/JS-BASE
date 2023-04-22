@@ -10,4 +10,6 @@ baliseHtml.style.color="green";*/
 
 const qContainer = document.querySelector(".click-event");
 
-qContainer.addEventListener("")
+qContainer.addEventListener("click", ()=>{
+ qContainer.classList.toggle("question-click")
+});
