@@ -24,15 +24,17 @@ p {
   margin: 10px auto 0;
   opacity: 0;
   transition: .6s;
+  transform: translateX(-200px);
 }
 
 .question-click {
 background: rgb(47, 47, 47);
 border-radius: 30px;
-border: 6px dashed pink;
+border: 6px dashed yellow;
 }
 
 .show-response {
   visibility: visible;
   opacity: 1;
+  transform: translateX(0);
 }
