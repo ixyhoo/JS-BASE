@@ -45,4 +45,5 @@ border: 6px dashed yellow;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50px;
+  z-index: -1;
 }
