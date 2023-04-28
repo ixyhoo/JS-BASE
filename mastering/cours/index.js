@@ -61,3 +61,12 @@ response.addEventListener("mouseover", () => {
 })
 
 //--------------------------------------------
+
+// keyPress event
+
+const keypressContainer = document.querySelector(".keypress");
+const key = document.getElementById("key");
+
+document.addEventListener('keypress', (e) => {
+   console.log(e);
+})
