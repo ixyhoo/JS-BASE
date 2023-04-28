@@ -67,6 +67,13 @@ response.addEventListener("mouseover", () => {
 const keypressContainer = document.querySelector(".keypress");
 const key = document.getElementById("key");
 
+const ring = () => {
+    const audio = new Audio();
+    audio.src = "./Enter.mp3";
+    audio.play();
+};
+
+
 document.addEventListener('keypress', (e) => {
    key.textContent = e.key;
    if (e.key === "c") {
@@ -78,4 +85,8 @@ document.addEventListener('keypress', (e) => {
    }else {
     keypressContainer.style.background = "violet";
    }
+
+   ring();
 });
+
+
