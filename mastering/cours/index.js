@@ -102,3 +102,10 @@ window.addEventListener("scroll", () => {
 })
 
 //---
+
+const inputName = document.querySelector("input[type='text']");
+let pseudo = "";
+
+inputName.addEventListener("input", (e) => {
+    pseudo = e.target.value;
+});
