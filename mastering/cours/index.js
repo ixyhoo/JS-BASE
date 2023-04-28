@@ -47,3 +47,17 @@ window.addEventListener("mouseup", () => {
     mousemove.style.transform = "scale(1) translate(-50%, -50%)";
     mousemove.style.border = "2px solid red";
 })
+
+qContainer.addEventListener("mouseenter", () => {
+    qContainer.style.background = "rgba(0,0,0,0.6)";
+})
+
+qContainer.addEventListener("mouseout", () => {
+    qContainer.style.background = "pink";
+})
+
+response.addEventListener("mouseover", () => {
+    response.style.transform = "rotate(2deg)";
+})
+
+//--------------------------------------------
