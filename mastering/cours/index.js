@@ -68,5 +68,14 @@ const keypressContainer = document.querySelector(".keypress");
 const key = document.getElementById("key");
 
 document.addEventListener('keypress', (e) => {
-   console.log(e);
-})
+   key.textContent = e.key;
+   if (e.key === "c") {
+    keypressContainer.style.background = "yellow";
+    keypressContainer.style.color = "black";
+   }else if (e.key === "m") {
+    keypressContainer.style.background = "turquoise";
+    keypressContainer.style.color = "red";
+   }else {
+    keypressContainer.style.background = "violet";
+   }
+});
