@@ -4,6 +4,7 @@ body {
   margin: 0;
   color: white;
   min-height: 200vh;
+  overflow-x: hidden;
 }
 * {
   box-sizing: border-box;
