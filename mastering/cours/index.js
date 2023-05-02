@@ -164,3 +164,18 @@ qContainer.addEventListener("click", (e) => {
 
 // BOM  
 
+//window.open("https://www.google.com");
+
+btn2.addEventListener("click", () => {
+    confirm("Voulez-vous vraiment vous tromper ?");
+})
+
+// prompt
+btn1.addEventListener("click", () => {
+    let answer = prompt("Quel est votre nom ?");
+    qContainer.innerHTML += "<h3>Bravo " + answer + " !</h3>";
+})
+
+setTimeout(() => {
+    //alert("Time out !");
+}
