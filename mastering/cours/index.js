@@ -154,3 +154,13 @@ boxes.forEach((box) => {
 
 //......................................-----
 // stop propagation
+
+qContainer.addEventListener("click", (e) => {
+    alert("test");
+    e.stopPropagation();
+})
+
+//---- removeEventListener
+
+// BOM  
+
