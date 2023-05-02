@@ -148,6 +148,9 @@ boxes.forEach((box) => {
 })
 
 //--- addEventListener vs onclick
-document.body.onclick = () => {
+/**document.body.onclick = () => {
     console.log("click");
-}
+}**/
+
+//......................................-----
+// stop propagation
