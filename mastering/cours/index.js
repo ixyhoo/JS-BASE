@@ -181,10 +181,41 @@ setTimeout(() => {
 }, 2000)
 
 let interval = setInterval(() => {
-   document.body.innerHTML += "<div class='box'><h2>Nouvelle boite !</h2></div>"
+ //  document.body.innerHTML += "<div class='box'><h2>Nouvelle boite !</h2></div>"
 },1000)
 
 document.body.addEventListener("click", (e) => {
    // e.target.remove();
     clearInterval(interval);
+})
+
+//----Location
+
+/**console.log(location.href);
+
+console.log(location.host);
+console.log(location.pathname);
+console.log(location.search);*/
+
+//location.replace("https://www.google.com");
+
+/*window.onload = () => {
+    location.href = "https://www.google.com";
+}*/
+
+//----Navigator
+//console.log(navigator.userAgent);
+
+//history
+
+//console.log(history);
+//window.history.back();
+
+//--------------------------
+//setProperty
+
+window.addEventListener("mousemove", (e) => {
+    nav.style.setProperty("--x", e.layerX + "px");
+
+    nav.style.setProperty("--y", e.layerY + "px");
 })
