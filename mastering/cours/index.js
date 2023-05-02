@@ -177,5 +177,5 @@ btn1.addEventListener("click", () => {
 })
 
 setTimeout(() => {
-    //alert("Time out !");
-}
+    qContainer.style.borderRadius = "300px";
+}, 2000)
